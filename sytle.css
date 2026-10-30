@@ -1,0 +1,22 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#main_header{
+  display: flex;
+  padding: 10px 0;
+  justify-content: space-around;
+}
+.main_menu ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+.main_menu ul li{
+  margin: 0 10px;
+  text-decoration: none;
+}
+.main_menu ul li {
+  text-decoration: none;
+}
