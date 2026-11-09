@@ -130,12 +130,14 @@ body{
 .contact_location{
   display: grid;
   grid-template-columns: auto auto auto;
-  width: 1000px;
-  height: 50px;
+  width: 100%;
+  max-width: 1000px;
+  height: 80px;
   justify-self: center;
   margin-top: 20px;
   border: 2px solid #55433e;
   border-radius: 15px;
+  background-color: #faf1eb;
   
 }
 .join{
@@ -147,4 +149,7 @@ body{
 }
 .join:last-child{
   border: none;
+}
+.text_f{
+  padding-left: 7px;
 }
