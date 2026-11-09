@@ -4,8 +4,11 @@
   box-sizing: border-box;
 }
 body{
-   background-color: #fff8f5;
+  background-color: #fff8f5;
+ 
+
 }
+
 #main_header{
   display: flex;
   padding: 10px 0;
@@ -13,7 +16,7 @@ body{
   align-items: center;
   border-bottom: 2px solid #ddd ;
   padding-bottom: 30px;
- 
+  
 }
 .logo{
   display: flex;
@@ -31,6 +34,7 @@ body{
   
   
 }
+
 .main_menu ul li{
   margin: 0 8px;
   text-decoration: none;
@@ -62,6 +66,7 @@ body{
   display: flex;
   align-items: center;
   justify-content: center;  
+ 
 }
 
 .hero_image img{
@@ -121,4 +126,25 @@ body{
 .button_s:hover{
   background-color: bisque;
  
+}
+.contact_location{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  width: 1000px;
+  height: 50px;
+  justify-self: center;
+  margin-top: 20px;
+  border: 2px solid #55433e;
+  border-radius: 15px;
+  
+}
+.join{
+  border-right: 2px solid #ddd;
+  display: flex;
+  align-items: center;
+  justify-content: center;  
+ 
+}
+.join:last-child{
+  border: none;
 }
