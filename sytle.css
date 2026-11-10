@@ -1,3 +1,7 @@
+:root{
+  --side-space:clamp(16px, 17vw, 260px);
+}
+
 *{
   margin: 0;
   padding: 0;
@@ -152,4 +156,35 @@ body{
 }
 .text_f{
   padding-left: 7px;
+}
+#service_home{
+  padding-inline:var(--side-space);
+}
+.main_service{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 24px;
+  margin-top: 20px;
+  
+}
+
+.main_service img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+
+}
+.main_service img:hover{
+  transform: scale(1.1);
+}
+.card{
+border: 2px solid #ddd;
+overflow: hidden;
+}
+.card h3{
+  margin-top:8px;
+  
+}
+.card p,.card h3{
+  padding: 0px 8px;
 }
