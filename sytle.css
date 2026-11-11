@@ -138,7 +138,7 @@ body{
   max-width: 1000px;
   height: 80px;
   justify-self: center;
-  margin-top: 20px;
+  margin-top: 50px;
   border: 2px solid #55433e;
   border-radius: 15px;
   background-color: #faf1eb;
@@ -159,6 +159,7 @@ body{
 }
 #service_home{
   padding-inline:var(--side-space);
+  margin-bottom: 80px;
 }
 .main_service{
   display: grid;
@@ -176,6 +177,17 @@ body{
 }
 .main_service img:hover{
   transform: scale(1.1);
+}
+.text_area{
+  margin-top: 80px;
+}
+.text_area h2{
+  font-size: 2.5rem;
+  padding: 12px 0px;
+}
+.text_area p{
+  line-height: 1.5rem;
+  font-size: 18px;
 }
 .card{
 border: 2px solid #ddd;
