@@ -20,6 +20,7 @@ body{
   align-items: center;
   border-bottom: 2px solid #ddd ;
   padding-bottom: 30px;
+  position: static;
   
 }
 .logo{
@@ -227,4 +228,73 @@ overflow: hidden;
   content: '⇒';
   font-size: 20px;
   text-align: center;
+}
+#spain_ro {
+  display: flex;
+  align-items: flex-start;
+  gap: 30px;
+  padding-inline: var(--side-space);
+  padding-bottom: 80px;
+}
+
+.content_sr {
+  flex: 1;
+  min-width: 0;
+}
+.content_sr h2{
+  font-size: 2.7em;
+  padding-bottom: 8px;
+}
+.text_un{
+  font-size: 1.1em;
+  padding-bottom: 30px;
+  
+}
+.front_ss{
+  font-size: 1.5em;
+  padding: 5px 0px;
+  font-weight: 600;
+  color:rgb(2, 58, 42) ;
+}
+
+.img_sr {
+  width: 500px;
+  flex-shrink: 0;
+}
+
+.img_sr img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 5%;
+}
+
+@media (max-width: 768px) {
+  #spain_ro {
+    flex-direction: column;
+  }
+  .img_sr {
+    width: 100%;
+    max-width: 400px;
+  }
+}
+.butoon_spain{
+  display: block;
+}
+.butoon_spain button{
+padding: 10px 30px;
+font-size: 1.1em;
+color:white;
+background-color: #b35c44;
+border-radius: 73.40282e38px;
+border: none;
+margin: 20px 0px;
+}
+.button_whatapps button{
+  padding: 7px 15px;
+font-size: 1.1em;
+color:rgb(6, 0, 0);
+background-color: #dfccc7;
+border-radius: 73.40282e38px;
+border: none;
 }
