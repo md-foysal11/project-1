@@ -260,6 +260,7 @@ overflow: hidden;
 .img_sr {
   width: 500px;
   flex-shrink: 0;
+  
 }
 
 .img_sr img {
@@ -267,6 +268,7 @@ overflow: hidden;
   height: auto;
   display: block;
   border-radius: 5%;
+  margin-top:60px;
 }
 
 @media (max-width: 768px) {
@@ -288,7 +290,11 @@ color:white;
 background-color: #b35c44;
 border-radius: 73.40282e38px;
 border: none;
-margin: 20px 0px;
+margin: 30px 0px;
+}
+.butoon_spain button:hover{
+  background-color: #035d4a;
+  transform: scale(1.1);
 }
 .button_whatapps button{
   padding: 7px 15px;
@@ -297,4 +303,66 @@ color:rgb(6, 0, 0);
 background-color: #dfccc7;
 border-radius: 73.40282e38px;
 border: none;
+}
+.button_whatapps button:hover{
+  background-color: rgb(8, 191, 194);
+  color: white;
+  transform: scale(1.1);
+}
+#why_us{
+  display: grid;
+  grid-template-columns: 1.1fr 1fr;
+  align-items: center;
+  max-width: 1200px;
+  padding-inline: var(--side-space);
+}
+.why_content h2{
+  font-size: 44px;
+  line-height: 1.2;
+  margin: 0 0 40px;
+  color: #3a3a3a;
+
+}
+.feature{
+
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+  margin-bottom: 28px;
+}
+.feature_icons{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background-color: #e9e2dc;
+}
+.feature_text h4{
+  font-size: 18px;
+  font-weight: 600;
+  margin: 0 0 6px;
+  color: #022b41;
+
+}
+.feature_text p{
+  max-width: 100%;
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 0;
+  color: rgb(2, 58, 42);  
+}
+.why_image{
+  max-width: 500px;
+  width: 100%;
+  height: auto;
+  justify-content: end;
+  
+}
+.why_image img{
+  width: 100%;
+  display: block;
+  height: auto;
 }
