@@ -344,19 +344,19 @@ border: none;
 
 }
 .feacone_text h3{
-  font-size: 22px;
-  font-weight: 600;
+  font-size: 20px;
+  font-weight: 400;
   line-height: 1.8;
 }
 .feacone_text p{
-  font-size: 18px;
+  font-size: 16px;
   color: rgb(60, 57, 57);
 }
 #aside{
   background-color: aquamarine;
   background-image: url(img/castellon-spania.DI6XXYV3_Z2fFpfe.webp);
   width: 600px;
-  height: 400px;
+  height: 420px;
   border-radius: 7%;
   align-self: center;
   margin-top: 60px;
