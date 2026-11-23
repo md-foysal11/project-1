@@ -309,60 +309,58 @@ border: none;
   color: white;
   transform: scale(1.1);
 }
-#why_us{
-  display: grid;
-  grid-template-columns: 1.1fr 1fr;
-  align-items: center;
-  max-width: 1200px;
+#main_why{
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
   padding-inline: var(--side-space);
-}
-.why_content h2{
-  font-size: 44px;
-  line-height: 1.2;
-  margin: 0 0 40px;
-  color: #3a3a3a;
-
-}
-.feature{
-
-  display: flex;
-  align-items: flex-start;
-  gap: 16px;
-  margin-bottom: 28px;
-}
-.feature_icons{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-shrink: 0;
-  width: 48px;
-  height: 48px;
-  border-radius: 50%;
-  background-color: #e9e2dc;
-}
-.feature_text h4{
-  font-size: 18px;
-  font-weight: 600;
-  margin: 0 0 6px;
-  color: #022b41;
-
-}
-.feature_text p{
-  max-width: 100%;
-  font-size: 16px;
-  line-height: 1.5;
-  margin: 0;
-  color: rgb(2, 58, 42);  
-}
-.why_image{
-  max-width: 500px;
-  width: 100%;
-  height: auto;
-  justify-content: end;
+  padding-bottom: 80px;
   
 }
-.why_image img{
-  width: 100%;
-  display: block;
-  height: auto;
+.main_contains{
+  margin-right: 20px;
+}
+.main_contains h2{
+  font-size: 44px;
+  color: darkslategray;
+}
+.feacone{
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  margin-top: 40px;
+  gap: 10px;
+  background-color: rgba(243, 5, 175, 0.07);
+  
+}
+.icones {
+
+  background-color: #f4e6e1;
+  color: #94442e;
+  border-radius: 50%;
+  padding: 10px;
+  font-size: 14px;
+  margin-left: 5px;
+
+}
+.feacone_text h3{
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 1.8;
+}
+.feacone_text p{
+  font-size: 18px;
+  color: rgb(60, 57, 57);
+}
+#aside{
+  background-color: aquamarine;
+  background-image: url(img/castellon-spania.DI6XXYV3_Z2fFpfe.webp);
+  width: 600px;
+  height: 400px;
+  border-radius: 7%;
+  align-self: center;
+  margin-top: 60px;
+
+
+  
 }
