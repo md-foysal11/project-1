@@ -26,7 +26,7 @@ body{
 .logo{
   display: flex;
   justify-content: space-around;
-  text-align: center;
+  text-align: center ;
 }
 .s_logo{
   margin-left: 7px;
@@ -57,7 +57,7 @@ body{
   color: rgb(6, 71, 131);
 }
 .contact_button button{
-  padding: 6px 25px;
+  padding: 6px 25px ;
   border-radius: 10%;
   background-color: rgb(3, 85, 57);
 }
@@ -377,12 +377,13 @@ border: none;
   padding: 10px;
   font-weight: 700;
 }
-#review_client p{
+.p_tag{
   font-size: 18px;
   font-weight: 300;
-  padding: 0px 10px;
+  padding-left: 15px !important;
 }
 .sub_review{
+  margin-top: 20px;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
 }
@@ -390,6 +391,7 @@ border: none;
   background-color: azure;
   padding: 10px 25px;
   background-clip: content-box;
+  border-radius: 10%;
   
 }
 .reviews span{
@@ -427,4 +429,68 @@ border: none;
   padding-left: 0 !important;
   text-indent: 0 !important;
   text-align: left !important;
+}
+.review_more{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 25px 0px;
+}
+.review_more button{
+ background: none;
+ border: none;
+ font-size: 16px;
+ 
+}
+.review_more button:hover{
+  color: #f66f6e;
+  transform: scale(1);
+  border: 1px groove #ddd;
+}
+.review_more button::after{
+  content: '⇒';
+  font-size: 20px;
+  text-align: center;
+  padding-left: 5px;
+}
+#contact{
+  padding-inline: var(--side-space);
+  background: #f4e6e1;
+  background-clip: content-box;
+  text-align: center;
+  border-radius: 18% ;
+}
+#contact h2{
+ padding: 8px 35px 5px 35px;
+ font-size: 2rem;
+}
+#contact h6{
+   padding: 0px 35px;
+   font-size: 16px;
+   padding-bottom: 10px;
+}
+.contact_buttona{
+   padding: 0px 35px;
+   gap: 35px;
+   padding-bottom: 25px;
+   margin-bottom: 40px;
+
+}
+.conatct_group{
+  background-color: rgba(172, 4, 119, 0.83);
+  color: black;
+  padding: 15px 40px;
+  border-radius: 2.68435e+07px;
+  margin: 10px 10px;
+  border: none;
+
+}
+.conatct_group a{
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  font-size: 14px;
+}
+.conatct_group i{
+  margin-right: 5px;
+  color: rgb(17, 34, 34);
 }
