@@ -58,8 +58,9 @@ body{
 }
 .contact_button button{
   padding: 6px 25px ;
-  border-radius: 10%;
-  background-color: rgb(3, 85, 57);
+  border-radius:2.68435e+07px;
+  background-color: #b35c44;
+  border: none;
 }
 .contact_button a{
   text-decoration: none;
@@ -388,7 +389,7 @@ border: none;
   grid-template-columns: repeat(2, 1fr);
 }
 .reviews{
-  background-color: azure;
+  background-color:rgb(255, 255, 255);
   padding: 10px 25px;
   background-clip: content-box;
   border-radius: 10%;
